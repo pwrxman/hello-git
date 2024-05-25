@@ -273,34 +273,34 @@ print("Hello Dear Git")
 
 #otra forma alternativa de hacer los import es como sigue
 
-from datetime import date, timedelta
-print(timedelta(minutes=70))
-print(date.today())
-# 1:10:00
-# 2021-01-22
+# from datetime import date, timedelta
+# print(timedelta(minutes=70))
+# print(date.today())
+# # 1:10:00
+# # 2021-01-22
 
-#para definir un modulo personal hay que crear el archivo correspondienter que contenga las funciones necesarias, en ste caso ejemplificaremois coin un  archivo llamado madd.py
+# #para definir un modulo personal hay que crear el archivo correspondienter que contenga las funciones necesarias, en ste caso ejemplificaremois coin un  archivo llamado madd.py
 
-import madd
+# import madd
 
-madd.myadd(10, 27)
-madd.mysubs(54, 23)
+# madd.myadd(10, 27)
+# madd.mysubs(54, 23)
 
-from madd import mymult
-mymult(20, 5)
+# from madd import mymult
+# mymult(20, 5)
 
-# PARA INSTALAR MODULOS DE TERCEROS DESDE INTERNET.
-#1. DESCARGARLOS DE pypi.org
-#2. EJECUTAR EN EL EQUIPO pip install colorama    colorama es en un ejemplo
-# se importa al codigo con import colorama 
-# o bien con from colorama import Fore, Style
-# ver ejemplo en la documen tacion de colorama en pypi.org
+# # PARA INSTALAR MODULOS DE TERCEROS DESDE INTERNET.
+# #1. DESCARGARLOS DE pypi.org
+# #2. EJECUTAR EN EL EQUIPO pip install colorama    colorama es en un ejemplo
+# # se importa al codigo con import colorama 
+# # o bien con from colorama import Fore, Style
+# # ver ejemplo en la documen tacion de colorama en pypi.org
 
 
 
-from colorama import Fore, Style, init
-init(convert=True)
-print(Fore.RED + "Hello World")
+# from colorama import Fore, Style, init
+# init(convert=True)
+# print(Fore.RED + "Hello World")
 
 
 #hay otros modulos que son frameworks, como FLASK o DJANGO. TKINTER
